@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+body{
+    margin: 0;
+    background-color: #F2eeeb;
+}
+header{
+    background-color: #F3e7d0;
+    padding: 30px;
+    box-shadow: 5px 1px 50px gray;
+}
+.container{
+    margin: 0 auto;
+    width: -40px;
+    text-align:center;    
+    padding-top:  35px;
+    max-width: 1204px;
+    
+}
+.header-center{
+    padding-top: 50px;
+}
+.header-center a{
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 25px;
+    border-radius: 4px;
+    color:grey;
+    font-family: Franklin Gothic;
+  
+}
+.header-center a:hover{
+    color: black;
+}
+.container-center{
+    width: 100%;
+    height:350px;  
+    max-width: 1204px;  
+    background-color: gainsboro;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 70px;
+    
+    
+}
+.container-imagen1{
+    width: 50%;
+    margin: 0;
+    
+    
+}
+img{
+    max-width: 200%;
+     margin-left: 65px;
+     margin-top: 30px;
+}
+
+
+
+.caja{
+    width: 300px;
+    height: 40px;
+    background-color: #aF0061;
+    color: white;
+    float: right;
+    margin-right: 120px;
+    margin-top: -120px;
+}
+.comp{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    color: white;
+}
+.caja:hover{
+    background-color: gray;
+   
+}
+h3{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px
+
+}
+p{
+    width: 100%;
+    color: grey;
+    padding-left: 30px;
+    text-align: left;
+}
+.footer1 {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin-top: 36px;
+    
+
+ }
+  h4 a{
+    
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+
+ }
+ h4 a:hover{
+    color: white;
+ }
+ p{
+    color: #576F72;
+    padding-right: 60px;
+    padding-left: 50px;
+    text-align: left;
+ }
+ h5{
+    text-align: center;
+    color: #576F72;
+    font-family: arial;
+ }
+
+@media screen and (max-width:800px) {
+    .header-center a{
+        float: none;
+        display: block;
+        text-align: left;
+        
+    }
+    .container-center{
+        float: none;
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+    }   
+    .caja{
+        width: 50%;
+        margin-top: 40px;
+    }
+    h3{
+        padding-top: 40%;
+    }
+    .container-imagen1{
+        margin-left: -66px;
+        margin-top: 20px;
+    }
+    }
